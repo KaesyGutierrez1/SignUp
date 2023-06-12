@@ -8,8 +8,21 @@
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
+  "repository": {
+            "type": "git",
+            "url": "git+https://github.com/KaesyGutierrez1/SignUp.git"
+        },
+
   "author": "Kaesy Gutiérrez Saucedo",
   "license": "ISC",
+
+  "bugs": {
+           "url": "https://github.com/KaesyGutierrez1/SignUp/issues"
+       },
+  
+ "homepage": "https://github.com/KaesyGutierrez1/SignUp#readme",
+
   "dependencies": {
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "body-parser": "^1.20.2",
