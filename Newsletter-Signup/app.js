@@ -45,11 +45,5 @@ app.post("/",function(req,res){
 app.post("/failure", (req,res) => {
     res.redirect("/")
 })
- 
-app.listen(3000, function(){
-    console.log("Server is running on Port 3000.");
-})
-  //API 
-  // 43170573171ca22779ad3457686d656c-us21
-  // ID 3b7f65c170
-  // server prefix us21
+
+app.listen(process.env.PORT || 3000)
